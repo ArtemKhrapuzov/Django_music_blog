@@ -10,6 +10,7 @@ class MusicMain(ListView):
     model = Singer
     template_name = 'music/index.html'
     context_object_name = 'posts'
+    paginate_by = 3
 
 
 class ShowPost(DetailView):
@@ -26,6 +27,7 @@ class ShowCat(ListView):
     template_name = 'music/index.html'
     slug_url_kwarg = 'cat_slug'
     context_object_name = 'posts'
+    paginate_by = 3
 
     def get_queryset(self):
         return Singer.objects.filter(cat__slug=self.kwargs['cat_slug'], is_published=True).select_related('cat')
