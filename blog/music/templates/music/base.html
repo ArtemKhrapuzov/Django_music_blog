@@ -15,7 +15,7 @@
 {% block mainmenu %}
 		<div class="header">
 			<ul id="mainmenu" class="mainmenu">
-			<li class="logo"><a href="#"><div class="logo"></div></a></li>
+			<li class="logo"><a href="{% url 'home' %}"><div class="logo"></div></a></li>
 
 {% if not forloop.last %}
 	<li><a href="#">Добавить статью</a></li>
@@ -36,9 +36,9 @@
 	{% get_category as category %}
 	<td valign="top" class="left-chapters">
 	<ul id="leftchapters">
-		<li class="selected"><a href="#">Все категории</a></li>
+		<li class="selected"><a href="{% url 'home' %}">Все категории</a></li>
 		{% for c in category %}
-		<li><a href="#">{{ c }}</a></li>
+		<li><a href="{{ c.get_absolute_url }}">{{ c }}</a></li>
 		{% endfor %}
 
 		<li class="share">

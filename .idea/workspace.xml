@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383cde39-5eb2-4f2b-b853-86d7ba394d94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/music/templates/music/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/music/templates/music/cat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/music/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/music/static/music/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/static/music/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/music/templates/music/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/templates/music/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/music/templates/music/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/templates/music/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/music/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/music/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/views.py" afterDir="false" />
     </list>
