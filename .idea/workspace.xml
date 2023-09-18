@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383cde39-5eb2-4f2b-b853-86d7ba394d94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/music/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/music/templates/music/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/music/templates/music/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/music/static/music/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/static/music/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/music/templates/music/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/templates/music/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/music/templates/music/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/templates/music/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/music/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/music/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/music/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +39,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/79994/PycharmProjects/training/test.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\79994\PycharmProjects\myDjangoProjects\blog\blog\music\templates\music" />
       <recent name="C:\Users\79994\PycharmProjects\myDjangoProjects\blog\blog\music\static\music\images" />
       <recent name="C:\Users\79994\PycharmProjects\myDjangoProjects\blog\blog\music\static\music\css" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../training" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../training/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

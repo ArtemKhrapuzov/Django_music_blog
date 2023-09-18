@@ -1,4 +1,6 @@
 html, body {
+
+
 	font-family: 'Arial';
 	margin: 0;
 	padding: 0;
@@ -204,6 +206,7 @@ div.button {
 }
 
 .content {
+
 	padding: 40px 20px 20px 40px;
 	width: 100%;
 	box-sizing: border-box;
