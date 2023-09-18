@@ -2,6 +2,18 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 
+from .models import *
+
+
+class AddPostForm(forms.ModelForm):
+
+    class Meta:
+        model = Singer
+        fields = ['title', 'slug', 'content', 'photo', 'cat']
+        widgets = {
+            'title': forms.TextInput(attrs={'class': 'form-input'}),
+            'content': forms.Textarea(attrs={'cols': 60, 'rows': 10}),
+        }
 
 class RegisterUserForm(UserCreationForm):
     username = forms.CharField(label='Логин', widget=forms.TextInput(attrs={'class': 'form-input'}))

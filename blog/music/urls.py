@@ -4,6 +4,7 @@ from .views import *
 
 urlpatterns = [
     path('', MusicMain.as_view(), name='home'),
+    path('addpost/', AddPost.as_view(), name='addpost'),
     path('register/', RegisterUser.as_view(), name='register'),
     path('login/', LoginUser.as_view(), name='login'),
     path('logout/', logout_user, name='logout'),

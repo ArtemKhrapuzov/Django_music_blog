@@ -1,4 +1,5 @@
 from django.contrib.auth import login, logout
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.views import LoginView
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -26,6 +27,13 @@ class ShowPost(DetailView):
     template_name = 'music/post.html'
     slug_url_kwarg = 'post_slug'
     context_object_name = 'post'
+
+
+class AddPost(LoginRequiredMixin, CreateView):
+    """Форма добавления поста"""
+    form_class = AddPostForm
+    template_name = 'music/addpost.html'
+    success_url = reverse_lazy('home')
 
 
 class ShowCat(ListView):
