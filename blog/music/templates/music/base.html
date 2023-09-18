@@ -16,7 +16,9 @@
 <div class="header">
 	<ul id="mainmenu" class="mainmenu">
 	<li class="logo"><a href="{% url 'home' %}"><div class="logo"></div></a></li>
-	<li><a href="{% url 'addpost' %}">Добавить статью</a></li>
+	{% if request.user.is_authenticated %}
+		<li><a href="{% url 'addpost' %}">Добавить статью</a></li>
+	{% endif %}
 	<li><a href="#">Контакты</a></li>
 	<li><a href="#">О сайте</a></li>
 
